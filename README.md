@@ -1,4 +1,4 @@
-# Facial Recogntion Flask Server
+# Facial Recognition Flask Server
 
 ## Overview
 
