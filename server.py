@@ -11,6 +11,12 @@ script_dir = os.path.dirname(__file__)
 
 print(script_dir)
 
+if not os.path.exists(script_dir+"//faces"):
+     os.makedirs(script_dir+"//faces")
+
+if not os.path.exists(script_dir+"//faces//facialdata"):
+     os.makedirs(script_dir+"//faces//facialdata")
+
 face_cascade = cv2.CascadeClassifier(script_dir+"\\face_detector.xml")
 
 def checkface(image_path):
